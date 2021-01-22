@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #090057;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+h1{
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px #c400c6;
+}
+#wrapper{
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+i{
+    color: #f1fa3c;
+}
+.piano{
+    margin: 3rem auto 0;
+    width: 80%;
+    border: 2px solid black;
+    height: 50vh;
+    display: flex;
+    border-collapse: collapse;
+}
+.piano-btn{
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+}
+.line{
+    width: 50%;
+    height: 60%;
+    background-color: black;
+    transform: translateX(-55%);
+    margin-right: -8%;
+    z-index: 2;
+}
+.c{
+    border-right: none;
+}
+footer{
+    margin-top: 3rem;
+}
+.pressed{
+    opacity: 0.95;
+    box-shadow: 0 3px 4px 0 black;
+}
